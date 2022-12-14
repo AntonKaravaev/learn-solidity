@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"topics/byte_to_string.sol": "SolidityTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"topics/byte_to_string.sol": {
+			"keccak256": "0x64f01a944b65222f5542da9e2e7f52f4395b2d1529fa1e960aa4145ab7b08f8c",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2ef9f4dec40a96c25c5f2458c87c6a649d1cc37a170a099d60333d21ceb34d11",
+				"dweb:/ipfs/QmUaHmnzYRp9XzBStkQi17y2BAVHp5SPm33DLpoaVnWF11"
+			]
+		}
+	},
+	"version": 1
+}

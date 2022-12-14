@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"topics/require_assert_revert.sol": "Error"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"topics/require_assert_revert.sol": {
+			"keccak256": "0x71a46e71f17cb29363e4726cac022acf62c76106ab4ad765b367833def94c4e9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://7a2ac808f2bca3dc37b3447bc5072d9176ea72988a1bf279f148d1601a407c9d",
+				"dweb:/ipfs/QmXfpURH2uegptiMZPfn8n4ARdJDc5yQgARq5XMvzz3k1n"
+			]
+		}
+	},
+	"version": 1
+}

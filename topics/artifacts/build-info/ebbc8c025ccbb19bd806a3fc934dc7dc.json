@@ -1,0 +1,71 @@
+{
+	"id": "ebbc8c025ccbb19bd806a3fc934dc7dc",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"topics/special_variables.sol": {
+				"content": "// \"SPDX-License-Identifier: UNLICENSED\"\n\n/*\n1)  blockhash(uint blockNumber) returns (bytes32)\n    Hash of the given block - only works for 256 most recent, excluding current, blocks.\n\n2)  block.coinbase (address payable) - Current block miner's address.\n\n3)  block.difficulty (uint) - current block difficulty.\n\n4)  block.gaslimit (uint) - Current block gaslimit.\n\n5)  block.number (uint) - Current block number.\n\n6)  block.timestamp - Current block timestamp as seconds since unix epoch.\n\n7)  gasleft() returns (uint256) - Remaining gas.\n\n8)  msg.data (bytes calldata) - Complete calldata.\n\n9)  msg.sender (address payable) - Sender of the message (current call).\n\n10) msg.sig (bytes4) - First four bytes of the calldata (i.e. function identifier)\n\n11) msg.value (uint) - Number of wei sent with the message.\n\n12) now (uint) - Current block timestamp (alias for block.timestamp).\n\n13  tx.gasprice (uint) - Gas price of the transaction.\n\n14) tx.origin (address payable) -Sender of the transaction (full call chain).\n*/\n\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> topics/special_variables.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "topics/special_variables.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"topics/special_variables.sol": {
+				"ast": {
+					"absolutePath": "topics/special_variables.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "1022:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

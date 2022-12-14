@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkLoan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawTest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/MyFirstContract_test.sol": "MyFirstContractTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyFirstContract.sol": {
+			"keccak256": "0x6d4f74f0f9a3f232f4bf9b9d4619d29a3000b1d924a2047c6135ffe6b1f2b6b0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5600eb4eb34e83624a6eef87e582c96417ac1fd246872d760d7425ab90bcfd93",
+				"dweb:/ipfs/Qmecw8dcRPUartehJvGZtttzm1UGwu3K7Qz5qkU5kdjexC"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/MyFirstContract_test.sol": {
+			"keccak256": "0x5efaeb9a49b7aae186a8661e93c560e9feab17217d5d19eb42748dbdce008f4c",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://71dc8e5d5dee10faf7f78097fdeac9abe4ebb8e42ad87dfd1726f68c92a96891",
+				"dweb:/ipfs/QmPUejGvzbVTdT5YtHKkUgs4ZecG6VfGWrynpkr5938noi"
+			]
+		}
+	},
+	"version": 1
+}

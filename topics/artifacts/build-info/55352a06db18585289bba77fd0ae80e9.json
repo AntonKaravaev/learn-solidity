@@ -1,0 +1,71 @@
+{
+	"id": "55352a06db18585289bba77fd0ae80e9",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"topics/pure_or_view.sol": {
+				"content": "// \"SPDX-License-Identifier: UNLICENSED\"\n/*\n\nhttps://www.educative.io/answers/what-are-pure-functions-in-solidity\nPure:\n    In Solidity, a function that doesn’t read or modify the variables of the state is called a pure function. \n    It can only use local variables that are declared in the function \n    and the arguments that are passed to the function to compute or return a value.\n\n    If the pure function is doing any of the following, the compiler will consider them as reading state \n    variables and will throw a warning:\n\n    - Reading state variables\n    - Accessing balance or address\n    - Invoking a function that is not pure\n    - Accessing a global variable, message, or block\n    - Using certain opcodes in inline assembly\n    \n    If the pure function is doing any of the following, the compiler will consider them \n    as modifying state variables and will throw a warning.\n\n    - Modifying or over-writing state variables\n    - Creating new contracts\n    - Invoking a function that is not pure or view\n    - Emitting events\n    - Using certain opcodes in inline assembly\n    - Using selfdestruct\n    - Using low-level function calls\n    - Sending Ether along with function calls\n    - Pure functions are allowed to use the revert() and require() functions.\n\n\n    --> View function declares that no state will be changed. \n    --> Pure function declares that no state variable will be changed or read.\n*/"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> topics/pure_or_view.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "topics/pure_or_view.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"topics/pure_or_view.sol": {
+				"ast": {
+					"absolutePath": "topics/pure_or_view.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "1427:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
